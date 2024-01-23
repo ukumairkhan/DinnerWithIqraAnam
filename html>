@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Go Out With Me?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will You Go Out With Me?</h1>
+    <p>Dear [Her Name],</p>
+    <p>I've been thinking a lot, and I would love the opportunity to take you out. Would you be interested?</p>
+    <button onclick="redirectToResponsePage()">Yes, I'd love to!</button>
+
+    <script>
+        function redirectToResponsePage() {
+            window.location.href = "response.html";
+        }
+    </script>
+</body>
+</html>
